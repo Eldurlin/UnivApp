@@ -1,5 +1,5 @@
-CREATE USER 'springstudent'@'localhost' IDENTIFIED BY 'springstudent';
+CREATE USER 'testuser'@'localhost' IDENTIFIED BY 'testuser';
 
-GRANT ALL PRIVILEGES ON * . * TO 'springstudent'@'localhost';
+GRANT ALL PRIVILEGES ON * . * TO 'testuser'@'localhost';
 
-ALTER USER 'springstudent'@'localhost' IDENTIFIED WITH mysql_native_password BY 'springstudent';
+ALTER USER 'testuser'@'localhost' IDENTIFIED WITH mysql_native_password BY 'testuser';
